@@ -1,0 +1,19 @@
+{
+    "name": "jorgeperaza/test",
+    "description": "Software developer test",
+    "authors": [
+        {
+            "name": "Jorge Peraza",
+            "email": "japr8985@gmail.com"
+        }
+    ],
+    "require": {
+        "phpunit/phpunit": "^7.3",
+        "redis/predis" : "5.3.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    }
+}

@@ -1,0 +1,5 @@
+vendor
+.idea
+.vagrant
+db
+fakeApi/node_modules
